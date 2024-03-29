@@ -40,7 +40,7 @@ header {
 }
 
 
-/*      Navigation Section */
+/*      Navigation Section      */
 
 nav  {
     color: var(--secondary-color);
@@ -57,8 +57,39 @@ nav a:hover {
     opacity: 0.7;
 }
 
-.nameContainer {
+
+/*      Main Section         */
+
+main, section, .nameContainer {
     display: flex;
     flex-direction: column;
+}
+
+main {
+    gap: 64px;
+}
+
+section{
+    gap: 48px;
+}
+
+.nameContainer {
+    
     gap: 10px;
+}
+
+
+/*      Image Container      */
+
+.imgContainer {
+    border-radius: 100%;
+    max-width: 114px;
+    overflow: hidden;
+}
+
+.imgContainer img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
 }
