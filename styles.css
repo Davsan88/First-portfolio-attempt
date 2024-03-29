@@ -109,15 +109,21 @@ section{
     flex-direction: column;
 }
 
-.stats > div {
+.stats>div {
     flex: 1;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.stats > div i {
+.stats div i {
     font-size: 1.4em;
 }
 
+.stats div div {
+    display: grid;
+    place-items: center;
+    min-width: 40px;
+}
 
+/* 20:00 https://www.youtube.com/watch?=aLb_fMGZQXI&ab_channel=Smoljames */
