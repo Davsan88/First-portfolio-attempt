@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    transition: 200ms;
 }
 
 body {
@@ -38,6 +39,9 @@ header {
     gap: 14px;
 }
 
+
+/*      Navigation Section */
+
 nav  {
     color: var(--secondary-color);
     display: flex;
@@ -45,4 +49,10 @@ nav  {
     gap:32px;
 }
 
-/* 10:57 https://www.youtube.com/watch?v=aLb_fMGZQXI&ab_channel=Smoljames */
+nav a {
+    cursor: pointer;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
