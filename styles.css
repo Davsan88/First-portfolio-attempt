@@ -32,6 +32,10 @@ header, main, footer {
     width: 100%;
 }
 
+p {
+    font-size: 1.05em;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -78,6 +82,12 @@ section{
     gap: 10px;
 }
 
+.statsContainer {
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+}
+
 
 /*      Image Container      */
 
@@ -93,3 +103,21 @@ section{
     object-fit: cover;
 
 }
+
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stats > div i {
+    font-size: 1.4em;
+}
+
+
