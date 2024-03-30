@@ -84,6 +84,7 @@ section{
 
 .statsContainer {
     display: flex;
+    flex-direction: column;
     align-items: stretch;
     gap: 24px;
 }
@@ -107,6 +108,7 @@ section{
 .stats {
     display: flex;
     flex-direction: column;
+    gap: 14px;
 }
 
 .stats>div {
@@ -126,4 +128,33 @@ section{
     min-width: 40px;
 }
 
-/* 20:00 https://www.youtube.com/watch?=aLb_fMGZQXI&ab_channel=Smoljames */
+.aboutMe {
+    line-height: 1.5em;
+}
+
+.outreach {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.outreach i {
+    transform: rotate(-45deg);
+}
+
+/*      Media Query      */
+
+@media (min-width: 640px) {
+    .statsContainer {
+        flex-direction: row;
+    }
+
+    .stats {
+        gap: 0px;
+    }
+
+    .aboutMe {
+        width: 80%;
+        margin-right: auto;
+    }    
+}
