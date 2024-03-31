@@ -71,6 +71,7 @@ main, section, .nameContainer {
 
 main {
     gap: 64px;
+    padding-bottom: 64px;
 }
 
 section{
